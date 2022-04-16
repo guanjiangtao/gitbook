@@ -2,7 +2,7 @@
 
 Java内存区域由下图组成。
 
-![Java虚拟机运行时区域](<../.gitbook/assets/image (8).png>)
+![Java虚拟机运行时区域](<../.gitbook/assets/image (10).png>)
 
 ### 程序计数器（线程私有）
 

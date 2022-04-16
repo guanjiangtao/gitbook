@@ -1,7 +1,3 @@
----
-description: go
----
-
 # Go整合ElasticSearch
 
 ### &#x20;安装ES并运行
@@ -22,11 +18,11 @@ elasticsearch:7.2.0
 
 出现如下界面代表已经完成了安装。
 
-![](<.gitbook/assets/image (9).png>)
+![](<.gitbook/assets/image (12).png>)
 
 我们检查一下docker运行状态，可以看到运行已经正常。
 
-![](<.gitbook/assets/image (6).png>)
+![](<.gitbook/assets/image (7).png>)
 
 ### 安装kibana
 
@@ -44,9 +40,9 @@ elasticsearch:7.2.0
 docker run --name kibana -e ELASTICSEARCH_URL=http://127.0.0.1:9200 -p 5601:5601 -d elastic/kibana:7.2.0
 ```
 
-![](<.gitbook/assets/image (2).png>)
+![](<.gitbook/assets/image (3).png>)
 
-![](<.gitbook/assets/image (13).png>)
+![](<.gitbook/assets/image (17).png>)
 
 对了记得设置es密码
 
@@ -56,7 +52,7 @@ docker run --name kibana -e ELASTICSEARCH_URL=http://127.0.0.1:9200 -p 5601:5601
 
 打开 http://ip:5601，登陆成功。
 
-![](<.gitbook/assets/image (3).png>)
+![](<.gitbook/assets/image (4).png>)
 
 
 
@@ -66,7 +62,7 @@ docker run --name kibana -e ELASTICSEARCH_URL=http://127.0.0.1:9200 -p 5601:5601
 
 同样olivere（[https://github.com/olivere/elastic](https://github.com/olivere/elastic)）提供了很多版本的es库，我们需要根据我们所安装的es版本进行选择，附上相关版本表格。
 
-![](<.gitbook/assets/image (14).png>)
+![](<.gitbook/assets/image (18).png>)
 
 我这里上面所安装的是7.2的所以我直接就安装v7的依赖。
 
@@ -74,7 +70,7 @@ docker run --name kibana -e ELASTICSEARCH_URL=http://127.0.0.1:9200 -p 5601:5601
 go get github.com/olivere/elastic/v7
 ```
 
-![](<.gitbook/assets/image (5).png>)
+![](<.gitbook/assets/image (6).png>)
 
 安装完成，导入模块，测试连接。
 
@@ -107,7 +103,7 @@ func init() {
 
 运行上述代码出现如下所示，代表完成es的连接，接下来就可以进行快乐的curd了。
 
-![](<.gitbook/assets/image (7).png>)
+![](<.gitbook/assets/image (8).png>)
 
 ### 创建索引
 
@@ -153,7 +149,7 @@ func CreateIndex() {
 
 执行完成，我们去kibana上看看是否写入成功，很明显查询成功，已经成功写入。
 
-![](<.gitbook/assets/image (4).png>)
+![](<.gitbook/assets/image (5).png>)
 
 ### 查询索引
 
@@ -238,6 +234,6 @@ func Delete() {
 
 查询删除结果，可以看到删除成功。
 
-![](<.gitbook/assets/image (12).png>)
+![](<.gitbook/assets/image (16).png>)
 
 到此为止简单的ES整合已经完成。

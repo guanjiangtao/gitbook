@@ -4,7 +4,7 @@
 
 ### **类加载时机**
 
-![类生命周期](<../.gitbook/assets/image (10).png>)
+![类生命周期](<../.gitbook/assets/image (13).png>)
 
 一：遇到new，getstatic，putstatic或invokestatic这四条字节码指令时，如果类型没有进行初始化，则需要触发初始化阶段：
 
