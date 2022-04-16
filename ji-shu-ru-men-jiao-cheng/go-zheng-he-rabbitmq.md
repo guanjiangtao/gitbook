@@ -1,0 +1,2 @@
+# Go整合rabbitmq
+
