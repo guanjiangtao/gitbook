@@ -1,8 +1,10 @@
 # Table of contents
 
+* [😀 个人简介](README.md)
+
 ## 技术入门教程
 
-* [Go整合ElasticSearch](README.md)
+* [Go整合ElasticSearch](<README (1).md>)
 * [Go整合rabbitmq](ji-shu-ru-men-jiao-cheng/go-zheng-he-rabbitmq.md)
 * [Tars-go实战—ES微服务化](ji-shu-ru-men-jiao-cheng/tarsgo-shi-zhan-es-wei-fu-wu-hua.md)
 * [Tars-go实现-rabbitmq微服务化](ji-shu-ru-men-jiao-cheng/tarsgo-shi-xian-rabbitmq-wei-fu-wu-hua.md)
