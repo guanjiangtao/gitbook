@@ -40,7 +40,7 @@ elasticsearch:7.2.0
 docker run --name kibana -e ELASTICSEARCH_URL=http://127.0.0.1:9200 -p 5601:5601 -d elastic/kibana:7.2.0
 ```
 
-![](<.gitbook/assets/image (3).png>)
+![](<.gitbook/assets/image (3) (1).png>)
 
 ![](<.gitbook/assets/image (17).png>)
 

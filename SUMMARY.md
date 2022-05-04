@@ -1,6 +1,6 @@
 # Table of contents
 
-* [😀 个人简介](README.md)
+* [个人简介](README.md)
 
 ## 技术入门教程
 
@@ -10,6 +10,7 @@
 * [Tars-go实现-rabbitmq微服务化](ji-shu-ru-men-jiao-cheng/tarsgo-shi-xian-rabbitmq-wei-fu-wu-hua.md)
 * [ELK日志平台实战搭建](ji-shu-ru-men-jiao-cheng/elk-ri-zhi-ping-tai-shi-zhan-da-jian.md)
 * [Grafana监控实战](ji-shu-ru-men-jiao-cheng/grafana-jian-kong-shi-zhan.md)
+* [ES原理总结](ji-shu-ru-men-jiao-cheng/es-yuan-li-zong-jie.md)
 
 ## JVM读书笔记
 
@@ -22,3 +23,8 @@
 * [双亲委派模型与类加载器](jvm-du-shu-bi-ji/shuang-qin-wei-pai-mo-xing-yu-lei-jia-zai-qi.md)
 * [锁优化与线程安全](jvm-du-shu-bi-ji/suo-you-hua-yu-xian-cheng-an-quan.md)
 * [监控工具的使用以及性能优化](jvm-du-shu-bi-ji/jian-kong-gong-ju-de-shi-yong-yi-ji-xing-neng-you-hua.md)
+
+## 算法笔记
+
+* [常见算法总结](suan-fa-bi-ji/chang-jian-suan-fa-zong-jie/README.md)
+  * [leetcode 27 移除元素](suan-fa-bi-ji/chang-jian-suan-fa-zong-jie/leetcode-27-yi-chu-yuan-su.md)
