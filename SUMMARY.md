@@ -6,7 +6,7 @@
 
 * [Go整合ElasticSearch](<README (1).md>)
 * [Go整合rabbitmq](ji-shu-ru-men-jiao-cheng/go-zheng-he-rabbitmq.md)
-* [Tars-go实战—ES微服务化](ji-shu-ru-men-jiao-cheng/tarsgo-shi-zhan-es-wei-fu-wu-hua.md)
+* [Tars环境搭建（超详细版）](ji-shu-ru-men-jiao-cheng/tars-huan-jing-da-jian-chao-xiang-xi-ban.md)
 * [Tars-go实现-rabbitmq微服务化](ji-shu-ru-men-jiao-cheng/tarsgo-shi-xian-rabbitmq-wei-fu-wu-hua.md)
 * [ELK日志平台实战搭建](ji-shu-ru-men-jiao-cheng/elk-ri-zhi-ping-tai-shi-zhan-da-jian.md)
 * [Grafana监控实战](ji-shu-ru-men-jiao-cheng/grafana-jian-kong-shi-zhan.md)

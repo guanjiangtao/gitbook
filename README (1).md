@@ -14,7 +14,7 @@ elasticsearch:7.2.0
 
 执行上述命令后，docker会去拉取es，并安装。
 
-![安装docker](.gitbook/assets/image.png)
+![安装docker](<.gitbook/assets/image (1).png>)
 
 出现如下界面代表已经完成了安装。
 
@@ -40,9 +40,9 @@ elasticsearch:7.2.0
 docker run --name kibana -e ELASTICSEARCH_URL=http://127.0.0.1:9200 -p 5601:5601 -d elastic/kibana:7.2.0
 ```
 
-![](<.gitbook/assets/image (3) (1).png>)
+![](<.gitbook/assets/image (3) (1) (1).png>)
 
-![](<.gitbook/assets/image (17).png>)
+![](<.gitbook/assets/image (17) (1).png>)
 
 对了记得设置es密码
 
@@ -70,7 +70,7 @@ docker run --name kibana -e ELASTICSEARCH_URL=http://127.0.0.1:9200 -p 5601:5601
 go get github.com/olivere/elastic/v7
 ```
 
-![](<.gitbook/assets/image (6).png>)
+![](<.gitbook/assets/image (6) (1).png>)
 
 安装完成，导入模块，测试连接。
 
@@ -103,7 +103,7 @@ func init() {
 
 运行上述代码出现如下所示，代表完成es的连接，接下来就可以进行快乐的curd了。
 
-![](<.gitbook/assets/image (8).png>)
+![](<.gitbook/assets/image (8) (1).png>)
 
 ### 创建索引
 
@@ -149,7 +149,7 @@ func CreateIndex() {
 
 执行完成，我们去kibana上看看是否写入成功，很明显查询成功，已经成功写入。
 
-![](<.gitbook/assets/image (5).png>)
+![](<.gitbook/assets/image (5) (1).png>)
 
 ### 查询索引
 
@@ -208,7 +208,7 @@ func Update() {
 
 查询变更结果，可以看出变更成功。
 
-![](<.gitbook/assets/image (1).png>)
+![](<.gitbook/assets/image (1) (1).png>)
 
 ### 删除
 
